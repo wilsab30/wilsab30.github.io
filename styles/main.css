@@ -29,6 +29,9 @@ footer {
   background-color: #DE6C83;
   clear: both;
 }
+footer nav ul {
+  text-align: center;
+}
 
 /*Removes underline from links in list items*/
 ul {
@@ -68,14 +71,20 @@ article.tile {
   border-color: #000;
   width: 23%;
   height: 200px;
-  padding: 0;
+  padding: 5px;
   margin: 15px;
   border-radius: 10%;
+
 
   }
 
   .tile a {
     color: #000;
+
+  }
+
+  .main {
+    padding-left: 150px;
   }
 /****************************
 portfolio page
@@ -84,6 +93,7 @@ portfolio page
   display: inline;
   height: 200px;
   width: 33%
+
 }
 
 #port {
@@ -94,6 +104,12 @@ portfolio page
 #preview img {
   width: 30%;
   height: 200px;
+}
+
+#preview {
+  width: 90%;
+  margin: 15px 150px;
+
 }
 
 /***************************
