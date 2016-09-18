@@ -1,17 +1,20 @@
-/*All pages*/
-/*https://coolors.co/c9ddff-ecb0e1-de6c83-c1aac0-2cf6b3*/
+/*********************************
+All pages
+**********************************/
+
 
 /*sets font for all pages*/
 body {
   font-family: 'Raleway', sans-serif;
 }
 
+/*Adds color to header and sets font size*/
 header {
   background-color: #39393A;
   font-size: 2em;
 
 }
-
+/*Alters margin from unordered list, centers text*/
 header ul {
   margin-top: 0;
   margin-right: 10px;
@@ -21,12 +24,13 @@ header ul {
   margin-bottom: 0;
 
 }
-
+/*Adds color to footer*/
 footer {
   background-color: #DE6C83;
   clear: both;
 }
 
+/*Removes underline from links in list items*/
 ul {
   list-style: none;
 }
@@ -44,7 +48,9 @@ li {
   padding: 0px;
 
 }
-/*Index page*/
+/**************************
+Index page
+***************************/
 #hero {
   width: 100%;
   height: 300px;
@@ -56,7 +62,24 @@ li {
   left: 30px;
 }
 
-/*portfolio page*/
+article.tile {
+  float:left;
+  border-style: solid;
+  border-color: #000;
+  width: 23%;
+  height: 200px;
+  padding: 0;
+  margin: 15px;
+  border-radius: 10%;
+
+  }
+
+  .tile a {
+    color: #000;
+  }
+/****************************
+portfolio page
+*****************************/
 .port_hero {
   display: inline;
   height: 200px;
@@ -73,9 +96,9 @@ li {
   height: 200px;
 }
 
-/******************
+/***************************
 about page
-******************/
+****************************/
 #selfie {
   border-radius: 50%;
   float:left;
@@ -88,3 +111,7 @@ about page
 }
 
 /*code_journal page */
+#code_hero {
+  width: 100%;
+  height: 300px;
+}
