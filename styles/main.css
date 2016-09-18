@@ -51,6 +51,13 @@ li {
   padding: 0px;
 
 }
+
+.logo {
+  width: 3%;
+  height: 3%;
+float:left;
+}
+
 /**************************
 Index page
 ***************************/
